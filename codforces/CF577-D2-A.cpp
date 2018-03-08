@@ -3,17 +3,7 @@
 #include<algorithm>
 #include<cmath>
 using namespace std;
-bool isp(long long  x)
-{
-   if(x==1)
-        return false;
-   else
-   for(int i=2;i<sqrt(x);i++){
-    if(x%i==0)
-    return false;}
-    return true;
 
-}
 
 int main()
 {
